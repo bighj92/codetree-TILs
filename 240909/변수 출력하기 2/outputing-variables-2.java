@@ -9,7 +9,7 @@ public class Main {
 
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        bw.write(a+"!.....!"+b);
+        bw.write(b+"!.....!"+a);
         bw.flush();
         bw.close();
 
